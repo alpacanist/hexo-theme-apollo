@@ -1,8 +1,15 @@
 mixin postInfo(item)
     .post-info
-        != full_date(item.date, 'll')
+        = full_date(item.date, 'll')
         if item.from && (is_home() || is_post())
             a.post-from(href=item.from target="_blank" title=item.from) 翻译 · 原文地址
+        +tag(item)
+
+            
+mixin tag(page)
+    if page.tags
+        for tag in page.tags.toArray()
+            a.post-tag-link(href=url_for(tag.path))= tag.name
 
 //- Index Page
 mixin posts()
@@ -45,3 +52,5 @@ mixin post(item)
             +postInfo(item)
             .post-content
                 != item.content
+                
+    
