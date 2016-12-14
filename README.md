@@ -15,8 +15,6 @@ Dodekatheon 是希腊神话中的十二主神。此处取 `Apollo` 的扩展之�
 
 ### 安装
 
-[![asciicast](https://asciinema.org/a/emrvroa9054hz6k8ise0uxh2u.png)](https://asciinema.org/a/emrvroa9054hz6k8ise0uxh2u)
-
 ``` bash
 hexo init Blog 
 cd Blog 
