@@ -1,11 +1,19 @@
-![hexo-theme-apollo](https://cloud.githubusercontent.com/assets/9530963/13026956/08e76eca-d277-11e5-8bfc-2e80cea20a0d.png)
+![artemis scheme](https://cloud.githubusercontent.com/assets/8289896/21179187/f4d3ddf8-c1c0-11e6-8aee-3823cd32834c.png)
 
-## 文档
+## 关于 Dodekatheon
+Dodekatheon 是希腊神话中的十二主神。此处取 `Apollo` 的扩展之意。
+从 hexo-theme-next 得到灵感，扩展了主题的 Scheme，可以在 `_config.yml` 中设定，一键更换风格。
+第一个 Scheme 实验品名叫 `Artemis`，即阿尔忒弥斯。
+
+## 关于 Apollo
+以下说明来自原 repo。
+
+### 文档
 
 - [中文文档](https://github.com/pinggod/hexo-theme-apollo/blob/master/doc%2Fdoc-zh.md)
 - [Document](https://github.com/pinggod/hexo-theme-apollo/blob/master/doc%2Fdoc-en.md)
 
-## 安装
+### 安装
 
 [![asciicast](https://asciinema.org/a/emrvroa9054hz6k8ise0uxh2u.png)](https://asciinema.org/a/emrvroa9054hz6k8ise0uxh2u)
 
@@ -17,7 +25,7 @@ npm install --save hexo-renderer-jade hexo-generator-feed hexo-generator-sitemap
 git clone https://github.com/pinggod/hexo-theme-apollo.git themes/apollo
 ```
 
-## 启用
+### 启用
 
 修改 `_config.yml` 的 `theme` 配置项为 `apollo`:
 
@@ -33,13 +41,15 @@ archive_generator:
     daily: false
 ```
 
-## 更新
+### 更新
 
 ``` bash
 cd themes/apollo 
 git pull
 ```
 
-## License
+### License
 
 MIT
+
+
